@@ -1,0 +1,42 @@
+{
+  "name": "fe",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "hwiveloper",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "airbnb",
+    "rules": {
+      "react/prefer-stateless-function": 0,
+      "react/jsx-filename-extension": 0,
+      "react/jsx-one-expression-per-line": 0
+    },
+    "env": {
+      "browser": true
+    }
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.2"
+  },
+  "devDependencies": {
+    "eslint": "5.6.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.2"
+  },
+  "proxy": "http://localhost:8080",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
